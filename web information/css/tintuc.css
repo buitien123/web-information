@@ -1,0 +1,117 @@
+body {
+    font-family: Tahoma;
+    font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+.seach{
+     text-align: right;
+}
+ #logo { 
+     background-color:wheat; 
+     width: 1000px; 
+    height:100px; 
+ } 
+#menu_top {
+    background-color:lawngreen;
+    height:40px;
+}
+#baner {
+    height:280px;
+    width:1000px;
+}
+#main #left {
+    width:700px;
+    background-color: blanchedalmond;
+    float:left;
+    min-height: 400px;
+}
+#main #right{
+    width:300px ;
+    min-height: 400px;
+    float: left; 
+}
+#footer{
+    background-color: royalblue;
+    width: 1000px;
+    text-align: center;
+    height:auto;
+    color: lightgreen;
+    clear: left;
+    line-height:60px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color:black ;
+    padding:0px 20px 0px 20px;
+    border-right:1px solid white;
+}
+#menu_top ul li a.aaa{
+    background-color:red;
+}
+#baner img {
+    width:1000px; 
+    height: 280px;
+}
+#main #letf ul{
+    margin: 0px;
+    padding: 0px;
+}
+#main #left ul li{
+     list-style: none;
+     clear:left;
+     border-bottom: 2px solid black;
+     float: left;
+     margin-bottom:20px ;
+}
+#main #left ul li img{
+     float: left;
+     margin-right:10px;
+     margin-bottom: 20px;
+}
+#main #left ul li h2{
+    font-size: 16px;
+    margin-top: 0px;
+}
+#main{
+    margin-top: 10px;
+}
+#main #right .menu_right ul{
+    margin:-15px 0px 0px;
+    padding: 0px;
+    border:2px solid black;
+}
+#main #right .menu_right ul li{
+    list-style: none;
+}
+#main #right .menu_right ul li a{
+    display: block;
+    text-decoration: none;
+    line-height:35px;
+    height:40px ;
+    border-bottom:1px solid royalblue;
+    background: url(../img/ccc.png) no-repeat 2px;
+    text-indent: 25px;
+    color: royalblue;
+}
+#main #right .menu_right h3{
+    background:tomato  url(../img/menu--v1.png..) no-repeat 3px;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height:40px;
+    color: #000;
+    text-indent: 0px;
+}
