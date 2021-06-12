@@ -1,2 +1,0 @@
-# web-information
-tin tức
