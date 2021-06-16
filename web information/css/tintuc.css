@@ -32,7 +32,7 @@ body {
     float: left; 
 }
 #footer{
-    background-color: royalblue;
+    background-color: rgb(73, 80, 100);
     width: 1000px;
     text-align: center;
     height:auto;
@@ -114,4 +114,9 @@ body {
     line-height:40px;
     color: #000;
     text-indent: 0px;
+}
+.footer-bottom p{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
 }
