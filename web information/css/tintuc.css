@@ -16,6 +16,15 @@ body {
     background-color:lawngreen;
     height:40px;
 }
+.login a  {
+    text-decoration: none;
+   
+    font-size: 15px;
+    
+}
+.login  li{
+    list-style: none;
+}
 #baner {
     height:280px;
     width:1000px;
