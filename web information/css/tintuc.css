@@ -4,22 +4,19 @@ body {
     width: 1000px;
     margin: 0px auto;
 }
-.seach{
-     text-align: right;
-     font-size: 15px;
-}
  #logo { 
      background-color:wheat; 
      width: 1000px; 
     height:100px; 
  } 
 #menu_top {
-    background-color:lawngreen;
+    background-color:turquoise;
+    transition: all 0.3s ease;
     height:40px;
-}  
-.login  li{
-    list-style: none;
-}
+} 
+#menu_top li :hover {
+background-color:wheat;
+} 
 #baner {
     height:280px;
     width:1000px;
@@ -44,26 +41,48 @@ body {
     clear: left;
     line-height:60px;
 }
-#menu_top ul{
-    margin: 0px;
-    padding: 0px;
-}
-#menu_top ul li{
-    list-style: none;
-    float: left;
-}
-#menu_top ul li a{
-    text-decoration: none;
+.dropbtn {
     display: block;
+    background-color: #04AA6D;
+    color: white;
     height: 40px;
     line-height: 40px;
-    color:black ;
-    padding:0px 20px 0px 20px;
-    border-right:1px solid white;
+    font-size: 15px;
+    border: none;
+    list-style: none;
+    padding:0px 30px 0px 36.1px;
+  }
+.dropbtn li {
+    list-style: none;
+     text-align: left;
 }
-#menu_top ul li a.aaa{
-    background-color:red;
-}
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
 #baner img {
     width:1000px; 
     height: 280px;
